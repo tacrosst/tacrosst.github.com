@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,17 +12,17 @@
   <body>
     <h2><a href="https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web"> Web 시작하기</a></h2>
     <h3>HTML</h3>
-  	<ul> 
- 		  <li><a href="http://www.w3schools.com/html/default.asp">w3schools(HTML)</a></li>
-  	  <li><a href="http://webstoryboy.co.kr/DoJs/javascript.html">JavaScript Reference</a></li>
+    <ul> 
+      <li><a href="http://www.w3schools.com/html/default.asp">w3schools(HTML)</a></li>
+      <li><a href="http://webstoryboy.co.kr/DoJs/javascript.html">JavaScript Reference</a></li>
       <li></li>
     </ul>  
     <h3>JavaScript</h3>
     <ul>
-  		<li><a href="http://www.w3schools.com/js/default.asp">w3schools(JavaScript)</a></li>
+      <li><a href="http://www.w3schools.com/js/default.asp">w3schools(JavaScript)</a></li>
       <li></li>
       <li></li>
-  	</ul>
+    </ul>
     <h3>Refactoring</h3>
     <ul>
       <li><a href="http://codereview.tistory.com/3">리팩토링</a></li>
@@ -31,7 +35,29 @@
       <li><a href="http://guruble.com/?p=116">git개념정리</a></li>
       <li><a href="http://uiandwe.tistory.com/804">이클립스-git 연동</a></li>
     </ul>
-    <a src="/_posts/2015-11-04-html.md">html</a>
 
   </body>
 </html>
+<h3>튜토리얼</h3>
+<div class="row home">
+  <div class="col-md-1">
+  </div>
+
+  <div class="col-md-10">
+    <ul class="post-list">
+      {% for post in site.posts limit: 10 %}
+        <li>
+          
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-md-1">
+  </div>
+</div>
+
