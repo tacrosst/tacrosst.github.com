@@ -555,7 +555,7 @@ An equal sign is used to assign values to variables.
 In this example, x is defined as a variable. Then, x is assigned (given) the value 6:
 
 프로그래밍 언어에서 변수는 데이터 값을 저장하는데 사용합니다.  
-자바스크립트에서는 변수의 핵심단어를 var로 정의하여 사용합니다.
+자바스크립트에서는 변수의 핵심단어를 var로 정의하여 사용합니다.  
 =은 변수에 값을 할당하는데 사용합니다.  
 예제에서는 x는 변수로 정의 합니다. 그x에 6이라는 값으로 부여합니다.
 
@@ -1342,12 +1342,14 @@ If you add a number to a string, the number will be treated as string, and conca
 
 ### Test Yourself with Exercises!
 
-[[실습1](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables1)]
-[[실습2](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables2)]
-[[실습3](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables3)]
-[[실습4](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables4)]
-[[실습5](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables5)]
-[[실습6](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables6)]
+### 연습문제로 자신을 테스트!
+
+[[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables1)]
+[[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables2)]
+[[연습문제3](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables3)]
+[[연습문제4](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables4)]
+[[연습문제5](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables5)]
+[[연습문제6](http://www.w3schools.com/js/exercise.asp?filename=exercise_variables6)]
 
 ---
 
@@ -1787,9 +1789,9 @@ Expressions in parentheses are fully computed before the value is used in the re
 
 ---
 
-Test Yourself with Exercises!
+### Test Yourself with Exercises!
 
-스스로 연습문제 테스트
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_arithmetic1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_arithmetic2)]
@@ -1886,7 +1888,7 @@ x %= 5;
 
 ### Test Yourself with Exercises!
 
-### 스스로 연습문제 시험
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_assignment1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_assignment2)]
@@ -2427,7 +2429,7 @@ You will learn a lot more about functions later in this tutorial.
 
 ### Test Yourself with Exercises!
 
-### 스스로 연습문제 테스트
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_functions1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_functions2)]
@@ -2659,7 +2661,7 @@ You will learn more about objects later in this tutorial.
 
 ### Test Yourself with Exercises!
 
-### 스스로 연습문제 테스트
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_objects1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_objects2)]
@@ -2990,7 +2992,7 @@ You will learn a lot more about events and event handlers in the HTML DOM chapte
 
 ### Test Yourself with Exercises!
 
-### 스스로 연습문제 시험!
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_events1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_events2)]
@@ -3317,7 +3319,7 @@ valueOf()		문자열 객체의 기본형식의 값을 반환합니다.
 
 ### Test Yourself with Exercises!
 
-### 스스로 연습문제 테스트
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_strings1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_strings1)]
@@ -3732,6 +3734,8 @@ The reference contains descriptions and examples of all string properties and me
 
 ### Test Yourself with Exercises!
 
+### 연습문제로 자신을 테스트!
+
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_stringsmet1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_stringsmet2)]
 [[연습문제3](http://www.w3schools.com/js/exercise.asp?filename=exercise_stringsmet3)]
@@ -4096,9 +4100,9 @@ Number methods are covered in the next chapter
 
 ---
 
-Test Yourself with Exercises!
+### Test Yourself with Exercises!
 
-스스로 연습문제 테스트!
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_numbers1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_numbers2)]
@@ -4595,7 +4599,7 @@ The reference contains descriptions and examples of all Math properties and meth
 
 ### Test Yourself with Exercises!
 
-### 스스로 연습문제 시험
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_math1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_math2)]
@@ -4853,7 +4857,7 @@ Read more about time zones in the next chapters.
 
 ### Test Yourself with Exercises!
 
-### 스스로 연습문제 테스트!
+### 연습문제로 자신을 테스트!
 
 [[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_dates1)]
 [[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_dates2)]
@@ -5092,3 +5096,1552 @@ In other words: If a date/time is created in GMT (Greenwich Mean Time), the date
 시간대를 설정하지 않고 날짜를 사용하면 자바스크립트는 브라우저의 시간대를 사용합니다.  
 날짜를 가져올때 시간대를 정하지않으면 그 결과는 브라우저의 시간대로 변환됩니다.  
 다시말해서: 날짜/시간은 GMT에 만든경우 사용자가 중앙 미국에서 탐색할 경우 날짜 시간은 CDT로 변환됩니다.
+
+---
+
+----
+
+# JavaScript Arrays
+
+# 자바스크립트 배열
+
+---
+
+JavaScript arrays are used to store multiple values in a single variable.
+
+자바스크립트 배열은 하나의 변수에 여러가지 값들을 저장하는데 사용합니다.
+
+---
+
+### Displaying Arrays
+
+### 배열 표시
+
+In this tutorial we will use a script to display arrays inside a <p> element with id="demo":
+
+이 튜토리얼에서 우리는 스크립트를 <p> 요소의 id="demo"안에서 배열을 보여주기 위해 사용하였습니다.
+
+<pre class="prettyprint">
+Example
+&lt;p id="demo"&gt;&lt;/p&gt;
+
+&lt;script&gt;
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+&lt;/script&gt;
+</pre>
+
+The first line (in the script) creates an array named cars.  
+The second line "finds" the element with id="demo", and "displays" the array in the "innerHTML" of it. 
+
+첫번째 (스크립트에서)줄에 이름이 cars인 배열을 생성 하였습니다.  
+두번째 줄에서 요소의 id="demo"인 것을 찾고 innerHTML로 배열을 보여줍니다.
+
+---
+
+### Try it Yourself
+
+### 혼자 해보기
+
+Create an array, and assign values to it:
+
+배열을 만들고 그것의 안에다가 값들을 넣는다
+
+<pre class="prettyprint">
+Example
+var cars = ["Saab", "Volvo", "BMW"];
+</pre>
+
+Spaces and line breaks are not important. A declaration can span multiple lines:
+
+줄 바꿈과 띄워쓰기는 중요하지 않습니다. 여러줄에 선언할 수 있습니다.
+
+<pre class="prettyprint">
+Example
+var cars = [
+    "Saab",
+    "Volvo",
+    "BMW"
+];
+</pre>
+
+Never put a comma after the last element (like "BMW",). The effect is inconsistent across browsers.
+
+절대 마지막 요소 다음에는 콤마를 찍지 말아야 합니다. 그것은 브라우저에서 다른 결과를 나오게 합니다.
+
+---
+
+### What is an Array?
+
+### 배열이란 무엇인가?
+
+An array is a special variable, which can hold more than one value at a time.  
+If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
+
+배열은 한번에 여러개의 값들을 갖을 수 있는 특별한 변수 입니다.   
+만약 당신이 가지고 있는 목록(예를들면 차 이름),  차 하나의 변수에 보이는 것과 비슷한 것들을 저장할 수 있습니다.
+
+<pre class="prettyprint">
+var car1 = "Saab";
+var car2 = "Volvo";
+var car3 = "BMW";
+</pre>
+
+However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?  
+The solution is an array!   
+An array can hold many values under a single name, and you can access the values by referring to an index number.
+
+그러나 당신이 원하는 정보를 얻으려고 하는 경우에 3개의 차가 아닌 300개라면?  
+해결 책은 배열입니다!  
+배열은 하나로 여러개의 값을 받아들일 수 있으며 인덱스 번호를 참조하여 접근 할 수 있습니다.
+
+---
+
+### Creating an Array
+
+### 배열 생성
+
+Using an array literal is the easiest way to create a JavaScript Array.
+
+배열 리터럴을 사용하여 자바스크립트 배열을 생성할 수 있는 가장 쉬운방법 입니다.
+
+<pre class="prettyprint">
+Syntax:
+var array-name = [item1, item2, ...];       
+Example:
+var cars = ["Saab", "Volvo", "BMW"];
+</pre>
+
+---
+
+### Using the JavaScript Keyword new
+
+### 자바스크립트 새로운 키워드 사용
+
+The following example also creates an Array, and assigns values to it:
+
+다음 예제는 배열을 생성하고 값을 할당하는 예제 입니다.
+
+<pre class="prettyprint">
+Example
+var cars = new Array("Saab", "Volvo", "BMW");
+</pre>
+
+The two examples above do exactly the same. There is no need to use new Array().   
+For simplicity, readability and execution speed, use the first one (the array literal method).
+
+위에의 2개 정확하게 같은 예제 입니다. 거기에는 new Array()를 사용할 필요가 없습니다.  
+단순성, 가독성과 실행 속도의 경우에는 첫번째를 사용 합니다.
+
+---
+
+### Access the Elements of an Array
+
+### 배열의 요소에 접근
+
+You refer to an array element by referring to the index number.  
+This statement accesses the value of the first element in cars:
+
+당신은 배열의 요소에대한 index number를 참고하여 참조하십시오.  
+이것은 차 요소의 첫번째 값에 대한 접근 방법을 설명한 것 입니다.
+
+var name = cars[0];
+
+This statement modifies the first element in cars:
+
+이것은 차 요소의 첫번째를 수정하는 방법을 설명한 것 입니다.
+
+cars[0] = "Opel";
+
+[0] is the first element in an array. [1] is the second. Array indexes start with 0.
+
+[0]은 배열의 첫번째 요소 입니다. [1]은 2번째 입니다. 배열 인덱스의 시작은 0부터 입니다.
+
+### You Can Have Different Objects in One Array
+
+### 당신의 배열과 오브젝트는 차이점을 가지고 있습니다. 
+
+JavaScript variables can be objects. Arrays are special kinds of objects.  
+Because of this, you can have variables of different types in the same Array.  
+You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array:
+
+자바스크립트 변수는 오브젝트로 가능합니다. 배열은 특별한 오브젝트 종류 입니다.  
+때문에 같은 배열에서 서로 다른 형태의 변수를 가질 수 있습니다.  
+당신은 배열 안에 오브젝트를 가질 수 있습니다. 당신은 배열에 함수를 가질 수 있습니다. 당신은 배열에 배열들을 가질 수 있습니다.
+
+<pre class="prettyprint">
+myArray[0] = Date.now;
+myArray[1] = myFunction;
+myArray[2] = myCars;
+</pre>
+
+---
+
+### Arrays are Objects
+
+### 배열의 오브젝트
+
+Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.  
+But, JavaScript arrays are best described as arrays.  
+Arrays use numbers to access its "elements". In this example, person[0] returns John:
+
+배열은 특별한 형식의 오브젝트 입니다. 자바스크립트에서 배열은 typeof연산자로 "오브젝트"를 반환합니다.  
+하지만 배열은 가장좋은 배열로 설명 되어 있습니다.  
+배열에서는 요소에 숫자로 접근할 수 있습니다. 예를들면 person[0]은 John을 반환합니다.
+
+<pre class="prettyprint">
+Array:
+var person = ["John", "Doe", 46];
+</pre>
+
+Objects use names to access its "members". In this example, person.firstName returns John:
+
+오브젝트는 접근할때 해당 이름을 사용하여 접근 합니다. 이 예제는, person.firstName은 John을 반환합니다.
+
+<pre class="prettyprint">
+Object:
+var person = {firstName:"John", lastName:"Doe", age:46};
+</pre>
+
+---
+
+### Array Properties and Methods
+
+### 배열의 속성과 방법
+
+The real strength of JavaScript arrays are the built-in array properties and methods:
+
+자바스크립트 배열의 진정한 힘은 내장된 배열의 속성과 메소드 입니다.
+
+<pre class="prettyprint">
+Examples
+var x = cars.length;         // The length property returns the number of elements in cars
+var y = cars.sort();         // The sort() method sort cars in alphabetical order
+</pre>
+
+Array methods are covered in the next chapter.
+
+배열 방법에 대해서는 다음잘에서 배울 것입니다
+
+---
+
+### The length Property
+
+### 길이 속성
+
+The length property of an array returns the length of an array (the number of array elements).
+
+배열에서의 길이 속성은 배열의 길이를 반환합니다.(배열 요소의 갯수)
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.length;                       // the length of fruits is 4
+</pre>
+
+The length property is always one more than the highest array index.
+
+길이 속성은 배열에서 가장높은 인덱스에 1을 더합니다.
+
+---
+
+### Adding Array Elements
+
+### 배열 요소 추가하기
+
+The easiest way to add a new element to an array is using the push method:
+
+새로운 요소를 배열에 추가하는 가장쉬운 방법은 push메소도를 사용해서 추가하는 방법입니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Lemon");                // adds a new element (Lemon) to fruits
+</pre>
+
+New element can also be added to an array using the length property:
+
+또한 새로운 요소는 길이 속성을 사용해서 배열에 추가할 수 있습니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[fruits.length] = "Lemon";     // adds a new element (Lemon) to fruits
+</pre>
+ 
+Adding elements with high indexes can create undefined "holes" in an array:
+
+배열은 높은 인덱스르르 사용해서 빈 배열을 만들 수도 있습니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[10] = "Lemon";                // adds a new element (Lemon) to fruits
+</pre>
+
+---
+
+### Looping Array Elements
+
+### 배열 요소 반복
+
+The best way to loop through an array, is using a "for" loop:
+
+배열에 반복문을 사용하는 방법중 가장 좋은 방법은 입니다
+
+<pre class="prettyprint">
+Example
+var index;
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+for	(index = 0; index &lt; fruits.length; index++) {
+    text += fruits[index];
+}
+</pre>
+
+---
+
+### Associative Arrays
+
+### 연관된 배열
+
+Many programming languages support arrays with named indexes.   
+Arrays with named indexes are called associative arrays (or hashes).   
+JavaScript does not support arrays with named indexes.   
+In JavaScript, arrays always use numbered indexes.  
+
+많은 프로그래밍 언어는 익덱스 배열을 지원합니다.   
+인덱스 배열은 연관배열(또는 해시)라고 합니다.  
+자바스크립트 배열은 이름에 인덱스 배열을 지원합니다.  
+자바스크립트 배열은 항상 인덱스 번호를 사용합니다.
+
+<pre class="prettyprint">
+Example
+var person = [];
+person[0] = "John";
+person[1] = "Doe";
+person[2] = 46;
+var x = person.length;         // person.length will return 3
+var y = person[0];             // person[0] will return "John"
+</pre>
+
+WARNING !!
+If you use a named index, JavaScript will redefine the array to a standard object.
+After that, all array methods and properties will produce incorrect results.
+
+경고!!  
+만약 당신이 인덱스 이름을 사용하면 자바스크립트 표준객체를 재정의 합니다.
+그 후 모든 배열 메서드와 속성이 잘못된 결과를 생성합니다.
+
+<pre class="prettyprint">
+ Example:
+var person = [];
+person["firstName"] = "John";
+person["lastName"] = "Doe";
+person["age"] = 46;
+var x = person.length;         // person.length will return 0
+var y = person[0];             // person[0] will return undefined
+</pre>
+
+---
+
+### The Difference Between Arrays and Objects
+
+### 배열과 객체 사이에서의 차이점
+
+In JavaScript, arrays use numbered indexes.     
+In JavaScript, objects use named indexes.  
+Arrays are a special kind of objects, with numbered indexes.
+
+자바스크립트에서는 배열은 인덱스로 숫자를 사용합니다.  
+자바스크립트에서는 객체는 인덱스로 이름을 사용합니다.  
+배열은 인덱스로 숫자를 사용하는 객체의 종류 중 하나입니다.
+
+---
+
+### When to Use Arrays. When to use Objects.
+
+### 배열과 오브젝트를 사용하는 경우
+
+* JavaScript does not support associative arrays.
+* You should use objects when you want the element names to be strings (text).
+* You should use arrays when you want the element names to be numbers.
+
+* 자바스크립트는 연관배열을 지원하지 않습니다.  
+* 문자 요소의 이름으로 문자열을 원한다면 당신은 객체를 사용 해야합니다.  
+* 요소 이름에 숫자를 원한다면 당신은 배열을 사용해야 합니다.
+
+---
+
+### Avoid new Array()
+
+### new Array()의 다른방법
+
+There is no need to use the JavaScript's built-in array constructor new Array().   
+Use [] instead.  
+These two different statements both create a new empty array named points:
+
+자바스크립트의 내장 배열 생성자를 사용할 필요가 없습니다.  
+대신에 []를 사용합니다.  
+이 두개의 서로다른 문은 모두 빈 배열을 만듭니다.
+
+<pre class="prettyprint">
+var points = new Array();         // Bad
+var points = [];                  // Good 
+</pre>
+
+These two different statements both create a new array containing 6 numbers:
+
+이 두개의 서로다른 문은 모두 6이라는 숫자를 포함하는 새로운 배열을 만드는 것 입니다.
+
+<pre class="prettyprint">
+var points = new Array(40, 100, 1, 5, 25, 10)  // Bad
+var points = [40, 100, 1, 5, 25, 10];          // Good
+</pre>
+
+The new keyword only complicates the code. It can also produce some unexpected results:
+
+새로운 키워드는 코드를 복잡하게 합니다. 또한 예상 밖의 결과가 발생할 수 있습니다.
+
+<pre class="prettyprint">
+var points = new Array(40, 100);  // Creates an array with two elements (40 and 100)
+</pre>
+
+What if I remove one of the elements?
+
+만약 내가 하나의 요소를 제거한다면?
+
+<pre class="prettyprint">
+var points = new Array(40);       // Creates an array with 40 undefined elements !!!!!
+</pre>
+
+---
+
+### How to Recognize an Array
+
+### 배열을 인식하는 요령
+
+A common question is: How do I know if a variable is an array?  
+The problem is that the JavaScript operator typeof returns "object":
+
+일반적인 질문 : 변수가 배열인 경우 어떻게 알 수 있을까?  
+문제는 자바스크립트 연산자인 typeof는 개체를 반환합니다.
+
+<pre class="prettyprint">
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+typeof fruits;             // returns object
+</pre>
+
+The typeof operator returns object because a JavaScript array is an object.  
+Solution 1:  
+To solve this problem ECMAScript 5 defines a new method Array.isArray():
+
+자바스크립트 배열은 객체이기 때문에 typeof 연산자의 값이 Object입니다.  
+해결방법 1:  
+ECMAScript 5 는 새로운 방법 Array.isArray 를 정의 하고 이 문제를 해결하려면
+
+<pre class="prettyprint">
+Array.isArray(fruits);     // returns true
+</pre>
+
+The problem with this solution is that ECMAScript 5 is not supported in older browsers.  
+Solution 2:  
+To solve this problem you can create your own isArray() function:
+
+이 솔루션의 문제는 ECMAScript 5에서 된다는 것 입니다 이전버전의 브라우저 에서는 지원하지 않습니다.  
+해결방법 2:  
+당신은 하나의 isArray()함수를 생성해서 이 문제를 해결할 수 있습니다.
+
+<pre class="prettyprint">
+function isArray(x) {
+    return x.constructor.toString().indexOf("Array") > -1;
+}
+</pre>
+
+The function above always returns true if the argument is an array.   
+Or more precisely: it returns true if the object prototype contains the word "Array".   
+Solution 3:  
+The instanceof operator returns true if an object is created by a given constructor:
+
+인수가배열인 경우 항상 위의 함수는 true를 반환합니다.  
+또는 더 정확하게: 객체의 트로토 타입이  배열을 포함하는 경우에는 true를 반환합니다.  
+해결방법 3:
+instanceof 객체가 주어진 생성자에 의해 생성되는 경우에 연산자는 true를 반환합니다.
+
+<pre class="prettyprint">
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits instanceof Array     // returns true
+</pre>
+
+---
+
+### Test Yourself with Exercises!
+
+### 연습문제로 자신을 테스트!
+
+[[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_arrays1)]
+[[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_arrays2)]
+[[연습문제3](http://www.w3schools.com/js/exercise.asp?filename=exercise_arrays3)]
+
+---
+
+---
+
+# JavaScript Array Methods
+
+# 자바스크립트 Array Methods
+
+---
+
+The strength of JavaScript arrays lies in the array methods.
+
+자바스크립트 배열의 장점은 arrays methods에 있습니다.
+
+---
+
+### Converting Arrays to Strings
+
+### 문자열을 배열로 전환
+
+The JavaScript method toString() converts an array to a string of (comma separated) array values.
+
+자바스크립트 toString()메소드는 배열값을 문자열로 변환을 시켜줍니다.(쉼표로 분리)
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+Result
+Banana,Orange,Apple,Mango
+</pre>
+
+The join() method also joins all array elements into a string.  
+It behaves just like toString(), but in addition you can specify the separator:
+
+join()메소드 또한 모든 배열의 요소를 문자열로 연결시켜 줍니다.  
+toString()과 비슷하게 실행은 되지만, 당신이 분리할 기호를 추가할 수 있습니다. 
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange","Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.join(" * ");
+Result
+Banana * Orange * Apple * Mango
+</pre>
+
+---
+
+### Popping and Pushing
+
+### 빼고 넣습니다.
+
+When you work with arrays, it is easy to remove elements and add new elements.  
+This is what popping and pushing is:   
+Popping items out of an array, or pushing items into an array.  
+
+배열로 작업을 할때, 그것은 쉽게 요소를 제거하거나 새로운 요소를 추가할 수 있습니다.  
+그것은 빼내하거나 넣을 수 있습니다.  
+popping은 배열에서 항목을 빼내고, 또는 puching은 배열에 항목을 추가합니다.
+
+---
+
+### Popping
+
+### 빼기
+
+The pop() method removes the last element from an array:
+
+pop()메소드는 배열에서 마지막 요소를 제거합니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();              // Removes the last element ("Mango") from fruits
+</pre>
+
+The pop() method returns the value that was "popped out":
+
+pop()메서드는 빼내어 제거된 값을 반환합니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = fruits.pop();      // the value of x is "Mango"
+</pre>
+
+---
+
+### Pushing
+
+### 밀어넣기
+
+The push() method adds a new element to an array (at the end):
+
+pushh()메소드는 배열(끝부분)의 새로운 요소를 추가시켜 줍니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");       //  Adds a new element ("Kiwi") to fruits
+</pre>
+
+The push() method returns the new array length:
+
+push()메소드는 새로운 배열의 길이를 반환합니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = fruits.push("Kiwi");   //  the value of x is 5
+</pre>
+
+---
+
+### Shifting Elements
+
+### 엘리먼트 이동
+
+Shifting is equivalent to popping, working on the first element instead of the last.   
+The shift() method removes the first element of an array, and "shifts" all other elements one place up.
+
+Shifting은 첫번째 요소를 튕겨내는 일을 대신해서 합니다.  
+shift()메소드는 배열의 첫번째 요소를 제거하고, 모든 다른 요소들을 하나씩 위치를 올립니다.  
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();            // Removes the first element "Banana" from fruits
+</pre>
+
+The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+
+unshift() 메소드는 새로운 배열의 시작에 새로운 요소를 추가하고, 이전의 요소를 되돌려 줍니다. 
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");    // Adds a new element "Lemon" to fruits
+</pre>
+
+The shift() method returns the string that was "shifted out".   
+The unshift() method returns the new array length.
+
+shift() 메소드는 옮겨지는 문자열을 반환합니다.  
+unshift() 메소드는 새로울 배열의 길이를 반환합니다.
+
+---
+
+### Changing Elements
+
+### 요소 변경
+
+Array elements are accessed using their index number:  
+Array indexes start with 0. [0] is the first array element, [1] is the second, [2] is the third ....
+
+배열요소들은 인덱스 번호를 사용하여 연결합니다.  
+배열의 인덱스들은 0부터 시작합니다. [0]은 첫번째 배열의 요소 [1]두번째 [3] 세번째...
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[0] = "Kiwi";        // Changes the first element of fruits to "Kiwi"
+</pre>
+
+The length property provides an easy way to append a new element to an array:
+
+길이 속성은 배열에 새로운 요소를 쉽게 추가할 수 있도록 공급해 줍니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[fruits.length] = "Kiwi";          // Appends "Kiwi" to fruit
+</pre>
+
+---
+
+### Deleting Elements
+
+### 삭제 요소
+
+Since JavaScript arrays are objects, elements can be deleted by using the JavaScript operator delete:
+
+자바스크립트는 배열 객체 입니다. 자바스크립트 연산자 삭제를 사용하여 요소를 제거할 수 있습니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+delete fruits[0];           // Changes the first element in fruits to undefined
+</pre>
+
+Using delete on array elements leaves undefined holes in the array. Use pop() or shift() instead.
+
+delete를 사용하여 배열의 요소를 정의되지않는 구멍을 만들어 냅니다. 대신에 pop()이나 shift()를 사용합니다. 
+
+---
+
+### Splicing an Array
+
+### 배열 짜맞추기
+
+The splice() method can be used to add new items to an array:
+
+splice()메소드는 배열에 새 항목을 추가할 수 있습니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+</pre>
+
+The first parameter (2) defines the position where new elements should be added (spliced in).   
+The second parameter (0) defines how many elements should be removed.   
+The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.
+
+첫번째 parameter(2)는 새로운 요소가 추가되어야 하는 위치를 정의합니다.  
+두번째 parameter(0)는 몇개의 요소를 재거할 건지를 결정 합니다.  
+parameter의 나머지는 새로 추가될 요소들을 정의합니다.
+
+
+---
+
+### Using splice() to Remove Elements
+
+### 요소를 제어하는 splice()사용
+
+With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array:
+
+parameter설정을 하면 배열에 구멍을 내지 않고 요소를 제거하기 위해서 splice()를 사용합니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(0, 1);        // Removes the first element of fruits
+</pre>
+
+The first parameter (0) defines the position where new elements should be added (spliced in).   
+The second parameter (1) defines how many elements should be removed.   
+The rest of the parameters are omitted. No new elements will be added.
+
+첫번째 parameter(0)은 새로운 요소가 추가되어야 하는 위치를 정의합니다.  
+두번째 parameter(1)는 얼마나 많은 요소가 제거 되어야 하는지를 정의합니다.  
+parameter의 나머지는 생략 됩니다. 새로운 요소가 추가되지 않습니다.
+
+---
+
+### Sorting an Array
+
+### 배열 정렬
+
+The sort() method sorts an array alphabetically:
+
+sort() 메소드는 알파벳 순으로 배열을 정렬시킵니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();            // Sorts the elements of fruits
+</pre>
+
+---
+
+### Reversing an Array
+
+### 배열 역순
+
+The reverse() method reverses the elements in an array.    
+You can use it to sort an array in descending order:
+
+reverse() 메소드는 배열의 요소를 역순으로 정렬합니다.  
+당신은 내림차순으로 배열을 정렬하는데 사용할 수 있습니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();            // Sorts the elements of fruits 
+fruits.reverse();         // Reverses the order of the elements
+</pre>
+
+---
+
+### Numeric Sort
+
+### 숫자 정렬
+
+By default, the sort() function sorts values as strings.   
+This works well for strings ("Apple" comes before "Banana").  
+However, if numbers are sorted as strings, "25" is bigger than "100", because "2" is bigger than "1".  
+Because of this, the sort() method will produce incorrect result when sorting numbers.  
+You can fix this by providing a compare function:
+
+기본적으로, sort()함수는 문자열 값을 정렬합니다.  
+이 문자열은 정상적으로 작동합니다.(사과와 바나나 앞에)  
+번호가 문자열로 되어 있는 경우에는 2보다 1이 크기 때문에 100보다 25가 큽니다. 
+그렇기 때문에 숫자를 정렬할 때는 sort()메소드는 잘못된 결과를 생성합니다.  
+당신은 비교 기능으로 문제를 해결할 수 있습니다.
+
+<pre class="prettyprint">
+Example
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a-b});
+</pre>
+
+or
+
+<pre class="prettyprint">
+Example
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a>b});
+</pre>
+
+Use the same trick to sort an array descending:
+
+배열 내림차순으로 트릭으로 정렬 같이 사용할 수 있습니다. 
+
+<pre class="prettyprint">
+Example
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return b-a});
+</pre>
+
+or
+
+<pre class="prettyprint">
+Example
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return b>a});
+</pre>
+
+---
+
+### The Compare Function
+
+### 비교 함수
+
+The purpose of the compare function is to define an alternative sort order.  
+The compare function should return a negative, zero, or positive value, depending on the arguments:
+
+비교 함수의 목적은 정렬 순서를 정의 하는 것 입니다.  
+비교 함수는 인수에 따라 +,-,0의 값을 반환해야 합니다.  
+
+<pre class="prettyprint">
+function(a, b){return a-b}
+</pre>
+
+When the sort() function compares two values, it sends the values to the compare function, and sorts the values according to the returned (negative, zero, positive) value.
+
+sort() 함수는 두 값을 비교하여 함수 값을 전송하고 음,양,0 의 값에 따라 값들을 정렬 합니다.  
+
+Example:  
+When comparing 40 and 100, the sort() method calls the compare function(40,100).  
+The function calculates 40-100, and returns -60 (a negative value).  
+The sort function will sort 40 as a value lower than 100.
+
+예:  
+40과 100을 sort() 메소드로 비교하려면 function(40,100)로 비교함수를 호출합니다.  
+함수에서 40-100은 -60을 반환합니다.(음의 값)  
+정렬 기능은 100보다 낮은 값으로 40을 정렬합니다.
+
+---
+
+### Find the Highest (or Lowest) Value
+
+### 최고갑 최저값 찾기
+
+How to find the highest value in an array?
+
+어떻게 배열에서 가장 높은 값을 찾을까요?
+
+<pre class="prettyprint">
+Example
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return b-a});
+// now points[0] contains the highest value
+</pre>
+
+And the lowest:
+
+그리고 최저는:
+
+<pre class="prettyprint">
+Example
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a-b});
+// now points[0] contains the lowest value
+</pre>
+
+---
+
+### Joining Arrays
+
+### 배열 연결
+
+The concat() method creates a new array by concatenating two arrays:
+
+concat() 메소드는 두개의 배열을 하나로 연결하여 새로운 배열로 만들어 냅니다.
+
+<pre class="prettyprint">
+Example
+var myGirls = ["Cecilie", "Lone"];
+var myBoys = ["Emil", "Tobias","Linus"];
+var myChildren = myGirls.concat(myBoys);     // Concatenates (joins) myGirls and myBoys
+</pre>
+
+The concat() method can take any number of array arguments:
+
+concat()메소드는 배열 인수를 무제한으로 수행 할 수 있습니다.
+
+<pre class="prettyprint">
+Example
+var arr1 = ["Cecilie", "Lone"];
+var arr2 = ["Emil", "Tobias","Linus"];
+var arr3 = ["Robin", "Morgan"];
+var myChildren = arr1.concat(arr2, arr3);     // Concatenates arr1 with arr2 and arr3
+</pre>
+
+### Slicing an Array
+
+### 배열 조각
+
+The slice() method slices out a piece of an array into a new array.   
+This example slices out a part of an array starting from array element 1 ("Orange"):
+
+slice()메소드는 배열의 조각을 새로운 배열이 됩니다.  
+예제는 배열의 요소1부터 시작하는 조각낸 배열 입니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1);
+</pre>
+
+Array indexes start with 0. [0] is the first array element, [1] is the second, [2] is the third ....  
+This example slices out a part of an array starting from array element 3 ("Apple"):
+
+배열 인덱스는 [0]첫번째 배열요소 [1] 두번째, [2]세번째...   
+이 예제는 배열 요소3부터 배열의 일부분을 조각낸 배열 입니다.  
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(3);
+</pre>
+
+The slice() method can take two arguments like slice(1,3).   
+The method then selects elements from the start argument, and up to (but not including) the end argument.
+
+slice()메소드는 slice(1,3)과 같이 2개의 인수로 할 수 있습니다.  
+이 메소드는 종료요소를 시작 요소로 선택하고 끝나는 요소도 선택 합니다.(하지만 끝지점 요소는 포함하지 않습니다.)
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1, 3);
+</pre>
+
+If the end argument is omitted, like in the first examples, the slice() method slices out the rest of the array.
+
+만약 끝나는 인수가 첫번째 실수 예에서와 같이 생략 되면 slice()메소드는 나머지 조각을 빼냅니다.
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(2);
+</pre>
+
+---
+
+### The valueOf() Method
+
+### valueOf() 메소드
+
+The valueOf() method is the default behavior for an array. It converts an array to a primitive value.   
+JavaScript will automatically convert an array to a string when a primitive value is expected.   
+Because of this, all these examples will produce the same result:
+
+valueOf()메소드는 배열의 기본 동작입니다. 그것은 기본 값으로 배열을 반환합니다.  
+원시 값이 예상되는 경우 자바 스크립트가 자동으로 문자열로 배열을 변환합니다.  
+때문에 모든 이러한 예는 동일한 결과를 생성합니다.
+
+
+<pre class="prettyprint">
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.valueOf();
+
+Example
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+</pre>
+
+All JavaScript objects have the valueOf() and toString() methods.
+
+모든 자바스크립트는 객체는 valueOf() 및 toString()메서드가 있습니다.
+
+---
+
+### Complete Array Reference
+
+### 전체 배열 참조
+
+For a complete reference, go to our Complete JavaScript Array Reference.   
+The reference contains descriptions and examples of all Array properties and methods.
+
+완벽한 reference로 이동하여 전체 자바스크립트 배열을 참조.  
+reference는 모든 배열의 속성과 메소드의 설명과 예제가 들어 있습니다.
+
+---
+
+### Test Yourself with Exercises!
+
+### 연습문제로 자신을 테스트!
+
+[[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_arraysmet1)]
+[[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_arraysmet2)]
+[[연습문제3](http://www.w3schools.com/js/exercise.asp?filename=exercise_arraysmet3)]
+[[연습문제4](http://www.w3schools.com/js/exercise.asp?filename=exercise_arraysmet4)]
+[[연습문제5](http://www.w3schools.com/js/exercise.asp?filename=exercise_arraysmet5)]
+
+---
+
+---
+
+# JavaScript Booleans
+
+# 자바스크립트 Booleans
+
+---
+
+A JavaScript Boolean represents one of two values: true or false.
+
+자바스크립트 boolean은 참 또는 거짓 2개중에 하나를 나타냅니다.
+
+---
+
+### Boolean Values
+
+### Boolean값
+
+Very often, in programming, you will need a data type that can only have one of two values, like
+
+* YES / NO
+* ON / OFF
+* TRUE / FALSE
+
+For this, JavaScript has a Boolean data type. It can only take the values true or false.
+
+당신은 프로그래밍을 하면서 매우 자주 데이터 형식에 2개중 하나의 비슷한 값들을 필요로 할 것 입니다.
+
+* YES / NO
+* ON / OFF
+* TRUE / FALSE 
+
+그것을 하기위해 자바스크립트 Boolean데이터 형식이 필요합니다. 이것은 오직 참과 거깃 값만 가지고 있습니다.
+
+---
+
+### The Boolean() Function
+
+### Boolean() 함수
+
+You can use the Boolean() function to find out if an expression (or a variable) is true:
+
+당신은 Boolean() 함수에서 true 값을 밖으로 표현하여 사용하는 것이 가능합니다.
+
+<pre calss="prettyprint"> 
+Example
+Boolean(10 > 9)        // returns true
+
+Or even easier:
+
+더 쉽게는:
+
+Example
+(10 > 9)              // also returns true
+10 > 9                // also returns true
+</pre>
+
+---
+
+### Comparisons and Conditions
+
+### 비교와 조건
+
+The chapter JS Comparisons gives a full overview of comparison operators.  
+The chapter JS Conditions gives a full overview of conditional statements.   
+Here are some examples:
+
+JS장에서 비교는 비교 연산자의 전체 개요에 대해서 제공해 줍니다.  
+JS장에서 조건은 조건부에 대하여 전체 개요를 제공해 줍니다.
+예를들면 다음과 같습니다:
+
+<pre class="prettyprint">
+Operator	Description	Example
+==		equal to	if (day == "Monday")
+&gt;		greater than	if (salary &gt; 9000)
+&lt;		less than	if (age &lt; 18)
+</pre>
+
+The Boolean value of an expression is the fundament for JavaScript comparisons and conditions.
+
+Boolean값 표현은 자바스크립트의 기초가 되는 비교와 조건 입니다.
+
+---
+
+Everything With a "Real" Value is True
+
+모든 값이 True인 실제 값들
+
+<pre class="prettyprint">
+Examples
+100
+3.14
+-15
+"Hello"
+"false"
+7 + 1 + 3.14
+5 &lt; 6
+</pre>
+
+---
+
+Everything Without a "Real" is False
+
+모든 값이 False인 실제 값들
+
+<pre class="prettyprint">
+The Boolean value of 0 (zero) is false:  
+Boolean값이 0이면 false:
+
+var x = 0;
+Boolean(x);       // returns false
+
+The Boolean value of -0 (minus zero) is false:  
+Boolean값이 -0 이면 false:
+
+var x = -0;
+Boolean(x);       // returns false
+
+The Boolean value of "" (empty string) is false:  
+Boolean값이 "" 공백 문자열 이면 false:
+
+var x = "";
+Boolean(x);       // returns false
+
+The Boolean value of undefined is false:  
+Boolean값이 존재 하지 않으면 false:
+
+var x;
+Boolean(x);       // returns false
+
+The Boolean value of null is false:  
+Boolean값이 null이면 false:
+
+var x = null;
+Boolean(x);       // returns false
+
+The Boolean value of false is (you guessed it) false:  
+Boolean값이 false이면 false:
+
+var x = false;
+Boolean(x);       // returns false
+
+The Boolean value of NaN is false:  
+Boolean값이 숫자가 아닌값이면 false
+
+var x = 10 / "H";
+Boolean(x);       // returns false
+</pre>
+
+---
+
+### Boolean Properties and Methods
+
+### Boolean의 성질과 방법
+
+Primitive values, like true and false, cannot have properties or methods (because they are not objects).  
+But with JavaScript, methods and properties are also available to primitive values, because JavaScript treats primitive values as objects when executing methods and properties.
+
+참과 거짓과 같은 원시 값은 속성이나 메소드를 가질 수 없습니다.(때문에 그들은 객체가 아닙니다.)  
+메소드와 속성을 실행할 때 자바스크립트 객체로 원시값을 처리하기 때문에 자바스크립트 메소드 및 특성은 원시 값을 사용할 수 있습니다.
+
+---
+
+### Complete Boolean Reference
+
+### 필요한 모든 것이 갖춰진 Boolean 참조
+
+For a complete reference, go to our [Complete JavaScript Boolean Reference](http://www.w3schools.com/jsref/jsref_obj_boolean.asp).  
+The reference contains descriptions and examples of all Boolean properties and methods.
+
+필요한 모든 것이 갖춰진 우리 자바스크립트 Boolean참고 참조  
+참조 설명과 모든 Boolean 속성과 메서드에 대한 예제가 들어 있습니다.
+
+---
+
+---
+
+# JavaScript Comparison and Logical Operators
+
+# 자바스크립트 비교와 논리 연산자
+
+---
+
+Comparison and Logical operators are used to test for true or false.
+
+비교와 논리 연산자는 참 또는 거짓을 테스트 할 때 사용합니다.
+
+---
+
+### Comparison Operators
+
+### 비교 연산자
+
+Comparison operators are used in logical statements to determine equality or difference between variables or values.  
+Given that x = 5, the table below explains the comparison operators:
+
+비교 연산자는 변수 나 값 사이에 동등하거나 차이를 결정하는 논리적인 문장에 사용됩니다.  
+x가 5로 정해진, 아래표에 비교 연산자에 대해서 설명 되어 있습니다.
+
+<pre class="prettyprint">
+Operator	Description			Comparing	Returns
+==		equal to			x == 8		false	
+						x == 5		true	
+						x == "5"		true
+-----------------------------------------------------------------------	
+===		equal value and equal type	x === 5		true	
+						x === "5"	false
+-----------------------------------------------------------------------	
+!=		not equal			x != 8		true
+-----------------------------------------------------------------------		
+!==		not equal value or 
+		not equal type			x !== 5		false	
+						x !== "5"	true	
+						x !== 8		true	
+-----------------------------------------------------------------------	
+&gt;		greater than			x &gt; 8		false
+-----------------------------------------------------------------------		
+&lt;		less than			x &lt; 8		true
+-----------------------------------------------------------------------
+>=		greater than or equal to		x >= 8		false
+-----------------------------------------------------------------------		
+&lt;=		less than or equal to 		x &lt;= 8		true	
+</pre>
+
+---
+
+### How Can it be Used
+
+### 어떻게 사용이 가능한가
+
+Comparison operators can be used in conditional statements to compare values and take action depending on the result:
+
+비교 연산자는 조건문에서 값을 비교하거나 이동에 따라 다음 결과처럼 사용할 수 있습니다.
+
+<pre class="prettyprint">
+if (age &lt; 18) text = "Too young";
+</pre>
+
+You will learn more about the use of conditional statements in the next chapter of this tutorial.
+
+당신은 조건문에 대한 사용 방법에 대해서 이 튜토리얼의 다음장에서 배우게 될 것입니다.
+
+---
+
+### Logical Operators
+
+### 논리 연산자
+
+Logical operators are used to determine the logic between variables or values.  
+Given that x = 6 and y = 3, the table below explains the logical operators:
+
+논리연산자는 변수 또는 값 사이에 논리적으로 결정하는데 사용됩니다.  
+x에6을 y에3을 대입합니다, 아래의 표는 논리연산자에 대한 설명입니다.
+
+<pre class="prettyprint">
+Operator	Description	Example	
+&&		and		(x &lt; 10 && y &gt; 1) is true	
+||		or		(x == 5 || y == 5) is false	
+!		not		!(x == y) is true 
+</pre>
+
+### Conditional (Ternary) Operator
+
+### 조건(삼항) 연산자
+
+JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+
+자바스크립트는 일부 조건에 따라 변수에 값을 할당하는 조건 연산자가 포함되어 있습니다.
+
+Syntax  
+문법
+
+<pre class="prettyprint">
+variablename = (condition) ? value1:value2 
+Example
+var voteable = (age < 18) ? "Too young":"Old enough";
+</pre>
+
+If the variable age is a value below 18, the value of the variable voteable will be "Too young", otherwise the value of voteable will be "Old enough".
+
+만약 나이변수가 18보다 아래인 값이면, 변수voteable의 값은 "Too young"일 것이고, 아니면 voteable의 값은 "Old enough"일 것입니다.
+
+---
+
+### Comparing Different Types
+
+### 다른 형식 비교
+
+Comparing data of different types may give unexpected results.   
+When comparing a string with a number, JavaScript will convert the string to a number when doing the comparison. An empty string converts to 0. A non-numeric string converts to NaN which is always false.
+
+다른 유형의 데이터를 비교하면 예상치 못한 결과값을 가질 수 있습니다.  
+문자열과 숫자를 비교할 때 자바스크립트 문자열을 숫자로 변환합니다. 0이 아닌 숫자 문자열로 변환되고 빈 문자열은 항상 false인 NaN으로 변환 합니다.
+
+<pre class="prettyprint">
+Case	Value	
+2 &lt; 12	true	
+2 &lt; "12"	true	
+2 &lt; "John"	false	
+2 &gt; "John"	false	
+2 == "John"	false	
+"2" &lt; "12"	false	
+"2" &gt; "12"	true	
+"2" == "12"	false	
+</pre>
+
+When comparing two strings, "2" will be greater than "12", because (alphabetically) 1 is less than 2.  
+To secure a proper result, variables should be converted to the proper type before comparison:
+
+두 문자열을 비교할 때는 (알파벳 순으로)1이 2보다 작기 때문에 "2"가 "12"보다 큽니다.  
+안전하고 적절한 결과를 얻기 위해서는, 비교하기 전에 변수를 전환 해줘야 합니다.
+
+<pre class="prettyprint">
+age = Number(age);
+if (isNaN(age)) {
+    voteable = "Error in input";
+} else {
+    voteable = (age &lt; 18) ? "Too young" : "Old enough";
+}
+</pre>
+
+---
+
+### JavaScript Bitwise Operators
+
+### 자바스크립트 비트 연산자
+
+Bit operators work on 32-bit numbers.  
+Any numeric operand in the operation is converted into a 32-bit number.  
+The result is converted back to a JavaScript number.
+
+비트 연산자는 32비트 숫자로 작동합니다.   
+동작에 있어서 어떤 수 피연산 함수는 32비트 숫자로 변환됩니다.  
+그 결과는 자바스크립트의 숫자로 변환되어 돌아옵니다.
+
+<pre class="prettyprint">
+Example
+x = 5 & 1;
+The result in x:
+1
+</pre>
+
+<pre class="prettyprint">
+Operator	Description	Example		Same as		Result	Decimal
+&		AND		x = 5 & 1	0101 & 0001	0001	1
+|		OR		x = 5 | 1	0101 | 0001	0101	5
+~		NOT		x = ~ 5	 	~0101		1010	10
+^		XOR		x = 5 ^ 1	0101 ^ 0001	0100	4
+&lt;&lt;		Left shift	x = 5 &lt;&lt; 1	0101 &lt;&lt; 1	1010	10
+&gt;&gt;		Right shift	x = 5 &gt;&gt; 1	0101 &gt;&gt; 1	0010	2
+</pre>
+
+The examples above use 4 bits unsigned examples. But JavaScript uses 32-bit signed numbers.  
+Because of this, in JavaScript, ~ 5 will not return 10. It will return -6.   
+~00000000000000000000000000000101 will return 11111111111111111111111111111010
+
+위에 예제에서는 부호가 없는 예제는 4비트를 사용합니다. 하지만 자바스크립트는 부호가 있는 숫자는 32비트를 사용합니다.  
+이 때문에, 자바스크립트 안에서는 ~5는 10을 반환하지 않습니다. 그것은 -6 으로 반환합니다.
+<pre class="prettyprint">
+~5(0101) 반대값 10(1010)은 4비트에서의 결과값
+32비트에서의 결과 값:  
+~5(00000000000000000000000000000101)  
+-6(11111111111111111111111111111010)
+</pre>
+---
+
+### Test Yourself with Exercises!
+
+### 연습문제로 자신을 테스트! 
+
+[[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_comparisons1)]
+[[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_comparisons2)]
+[[연습문제3](http://www.w3schools.com/js/exercise.asp?filename=exercise_comparisons3)]
+[[연습문제4](http://www.w3schools.com/js/exercise.asp?filename=exercise_comparisons4)]
+[[연습문제5](http://www.w3schools.com/js/exercise.asp?filename=exercise_comparisons5)]
+[[연습문제6](http://www.w3schools.com/js/exercise.asp?filename=exercise_comparisons6)]
+
+---
+
+---
+
+# JavaScript If...Else Statements
+
+# 자바스크립트 if...Else문
+
+---
+
+Conditional statements are used to perform different actions based on different conditions.
+
+조건문은 특색이 다른 조건에서 수행하기 위해서 사용 됩니다.
+
+---
+
+### Conditional Statements
+
+### 조건문
+
+Very often when you write code, you want to perform different actions for different decisions.  
+You can use conditional statements in your code to do this.  
+In JavaScript we have the following conditional statements:
+
+* Use if to specify a block of code to be executed, if a specified condition is true
+* Use else to specify a block of code to be executed, if the same condition is false
+* Use else if to specify a new condition to test, if the first condition is false
+* Use switch to specify many alternative blocks of code to be executed
+
+당신이 코드를 작성할때 매우 자주, 당신은 차이가 나는 조건에서 결정을 하고싶어 합니다.   
+당신의 코드에서 조건문을 사용할 수 있습니다.  
+우리는 자바스크립트안에 다음과 같은 조건문을 가질 수 있습니다.
+
+* if는 코드범위에 명시된 작업의 조건이 만약 참일경우에 작업을 수행하기 위해 사용합니다.
+* else는 코드범위에 명시된 작업의 조건이 만약 false와 같다면 수행사기 위해 사용합니다.
+* else if는 새로운 조건 지정하고 테스트 하기위서 만약 첫번째 조건이 false일 경우에 사용 합니다.
+* switch는 많은 조건의 코드 범위에서 명시된 조건을 선택하여 실행하기 위해 사용합니다.
+
+---
+
+### The if Statement
+
+### if문
+
+Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
+
+if 문은 자바스크립트 코드범위안에 명시된 조건이 참 일때 실행 되기 위해서 사용합니다.
+
+Syntax 문법
+<pre class="prettyprint">
+if (condition) {
+    block of code to be executed if the condition is true
+}
+</pre>
+
+Note that if is in lowercase letters. Uppercase letters (If or IF) will generate a JavaScript error.
+
+참고하세요 if는 소문자 입니다. 대문자일 경우(If나 IF)에는 자바스크립트는 오류를 발생시킵니다.
+
+<pre class="prettyprint">
+Example
+Make a "Good day" greeting if the hour is less than 18:00:
+
+if (hour &lt; 18) {
+    greeting = "Good day";
+}
+The result of greeting will be:
+
+Good day
+</pre>
+
+---
+
+### The else Statement
+
+### else문
+
+Use the else statement to specify a block of code to be executed if the condition is false.
+
+else문은 코드범위에서 명시된 조건이 만약 false인 경우에 실행하기 위해 사용합니다.
+
+<pre class="prettyprint">
+if (condition) {
+    block of code to be executed if the condition is true
+} else { 
+    block of code to be executed if the condition is false
+}
+</pre>
+
+<pre claa="prettyprint">
+Example
+If the hour is less than 18, create a "Good day" greeting, otherwise "Good evening":
+
+if (hour &lt; 18) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+The result of greeting will be:
+
+Good day
+</pre>
+
+### The else if Statement
+
+### else if문
+
+Use the else if statement to specify a new condition if the first condition is false.
+
+else if문은 첫번째 조건이 false인 경우에 새로운 조건을 명시하기 위해 사용합니다. 
+
+
+Syntax 문법
+<pre class="prettyprint">
+if (condition1) {
+    block of code to be executed if condition1 is true
+} else if (condition2) {
+    block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    block of code to be executed if the condition1 is false and condition2 is false
+}
+</pre>
+
+<pre class="prettyprint">
+Example
+If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening":
+
+if (time &lt; 10) {
+    greeting = "Good morning";
+} else if (time &lt; 20) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+The result of greeting will be:
+
+Good morning
+</pre>
+
+---
+
+### More Examples
+
+[Random link](http://www.w3schools.com/js/tryit.asp?filename=tryjs_randomlink)
+This example will write a link to either W3Schools or to the World Wildlife Foundation (WWF). By using a random number, there is a 50% chance for each of the links.
+
+위의 링크 예제는 50%의 확률로 세계적인 동물 사이트나 W3Schools중 하나를 랜덤으로 링크로 나타내 주는 예제 입니다.
+
+---
+
+### Test Yourself with Exercises!
+
+### 연습문제로 자신을 테스트!
+
+[[연습문제1](http://www.w3schools.com/js/exercise.asp?filename=exercise_conditions1)]
+[[연습문제2](http://www.w3schools.com/js/exercise.asp?filename=exercise_conditions2)]
+[[연습문제3](http://www.w3schools.com/js/exercise.asp?filename=exercise_conditions3)]
+[[연습문제4](http://www.w3schools.com/js/exercise.asp?filename=exercise_conditions4)]
+[[연습문제5](http://www.w3schools.com/js/exercise.asp?filename=exercise_conditions5)]
+[[연습문제6](http://www.w3schools.com/js/exercise.asp?filename=exercise_conditions6)]
