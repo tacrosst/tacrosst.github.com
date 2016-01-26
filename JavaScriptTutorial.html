@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+	hr { border-left:1px;}
+</style>
+<script type="text/javascript" src="/APItest/WebContent/jquery-1.11.2.min.js"></script>
+
+
+
+<script>
+//String Methods
+var name1 = "Volvo XC60";
+var name2 = 'abc abc abc "abc"';
+function stringTest1(){
+	var answer = 'He is called "Johnny"';
+	document.getElementById("stringTest1").innerHTML = answer;
+}
+
+//Numbers
+var x = 0.2 + 0.1;
+function numberTest(){
+	document.getElementById("numberTest1").innerHTML = new Number(numText.value);
+}
+
+function numberToString(){
+	var myNumber = new Number(numText.value);
+	console.log(myNumber);
+	document.getElementById("numberTest1").innerHTML = myNumber.toString(myNumber2.value);
+	console.log(myNumber2.value);
+}
+
+var c = 2;
+function infinity(){
+	c = c * c;
+ 	document.getElementById("numberTest1").innerHTML = c;
+ 	console.log(c);
+
+ 	if(c == Infinity){
+ 		clearTimeout(timeout);
+ 		c = 2;
+ 	}
+}
+
+//Number Methods
+var numberX = 9.656;
+function number1(){
+	var x = 9.656;
+	var numberToExponential = (numberMethods1.value);
+	switch (numberToExponential){
+		case "2":
+		document.getElementById("numberMethods").innerHTML = x.toExponential(2);
+		break;
+		case "4":
+		document.getElementById("numberMethods").innerHTML = x.toExponential(4);
+		break;
+		case "6":
+		document.getElementById("numberMethods").innerHTML = x.toExponential(5);
+		break;
+	}
+}
+function number4(){
+	console.log(numberMethods4.value);
+	var x = (numberMethods4.value);
+	switch (x){
+		case "true":
+		document.getElementById("numberMethods").innerHTML = Number(true);
+		break;
+		case "false":
+		document.getElementById("numberMethods").innerHTML = Number(false);
+		break;
+		case "new Date()":
+		document.getElementById("numberMethods").innerHTML = Number(new Date());
+		break;
+		case "10":
+		document.getElementById("numberMethods").innerHTML = Number("10");
+		break;
+		case "20":
+		document.getElementById("numberMethods").innerHTML = Number("10 20");
+		break;
+	}
+}
+
+function number5(){
+	console.log(numberMethods5.value);
+	var x = (numberMethods5.value);
+	switch (x){
+		case "10":
+		document.getElementById("numberMethods").innerHTML = parseInt("10");
+		break;
+		case "10.33":
+		document.getElementById("numberMethods").innerHTML = parseInt("10.33");
+		break;
+		case "102030":
+		document.getElementById("numberMethods").innerHTML = parseInt("10 20 30");
+		break;
+		case "10years":
+		document.getElementById("numberMethods").innerHTML = parseInt("10 years");
+		break;
+		case "years10":
+		document.getElementById("numberMethods").innerHTML = parseInt("years 10");
+		break;
+	}
+}
+
+function number6(){
+	console.log(numberMethods6.value);
+	var x = (numberMethods6.value);
+	switch (x){
+		case "10":
+		document.getElementById("numberMethods").innerHTML = parseFloat("10");
+		break;
+		case "10.33":
+		document.getElementById("numberMethods").innerHTML = parseFloat("10.33");
+		break;
+		case "102030":
+		document.getElementById("numberMethods").innerHTML = parseFloat("10 20 30");
+		break;
+		case "10years":
+		document.getElementById("numberMethods").innerHTML = parseFloat("10 years");
+		break;
+		case "years10":
+		document.getElementById("numberMethods").innerHTML = parseFloat("years 10");
+		break;
+	}
+}
+
+function number7(){
+	console.log(numberMethods7.value);
+	var x = (numberMethods7.value);
+	switch (x){
+		case "numberX":
+		document.getElementById("numberMethods").innerHTML = numberX.valueOf();
+		break;
+		case "7.453":
+		document.getElementById("numberMethods").innerHTML = (7.453).valueOf();
+		break;
+		case "8.123":
+		document.getElementById("numberMethods").innerHTML = (8+0.123).valueOf();
+		break;
+	}
+}
+
+function number8(){
+    var checked = $("#numberMethods8").val();
+    console.log(checked);
+
+    if(checked == "true"){
+    	console.log(checked);
+		document.getElementById("numberMethods").innerHTML = Number(true);
+	}else if(checked == "false"){
+		document.getElementById("numberMethods").innerHTML = Number(false);
+	}else if(checked == "new Date()"){
+		document.getElementById("numberMethods").innerHTML = Number(new Date());
+	}else{
+		document.getElementById("numberMethods").innerHTML = Number(numberMethods8.value);
+	}
+
+}
+//array
+var dateX = new Date();
+var arrayX = [40, 20, 10, 99, 5];
+var arrayObj = {number1:"1번", number2:"2번"};
+
+//array methods
+var points = [10, 30, 50, 4, 8];
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+</script>
+
+</head>
+<body> 
+<!-- String Methods -->
+<h3>String Methods</h3>
+변수<br/>
+name1 = "Volvo XC60" <br/>
+name2 = 'abc abc abc "abc"'
+<table border="0">
+	<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="200">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="stringTest1"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+		<table border="1" align="center" style="height:200px; width:700px;" nowrap>
+			<tr>
+				<td align="center">실행 버튼</td>
+				<td align="center" WIDTH="110">설명</td>
+				<td align="center">실행 버튼</td>
+				<td align="center" WIDTH="160">설명</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" onclick="javascript:stringTest1()" value=".stringChange" style="width:160px;">
+				</td>
+				<td>문자열 교체</td>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.length" value=".length" style="width:160px;">
+				</td>
+				<td>name1길이</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name2.lastIndexOf('abc')" value='.lastIndexOf("abc")' style="width:160px;">
+				</td>
+				<td>마지막abc위치</td>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name2.indexOf('abc')" value='.indexOf("abc")' style="width:160px;">
+				</td>
+				<td>abc위치</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.search('60')" value='.search("60")' style="width:160px;">
+				</td>
+				<td>60위치 찾기</td>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.slice(3,8)" value='.slice(3,8)' style="width:160px;">
+				</td>
+				<td>3~8문자</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.substr(6,2)" value='.substr(6,2)' style="width:160px;">
+				</td>
+				<td>6부터2문자</td>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.replace('XC60','ABCD')" value='.replace("XC60","ABCD")' style="width:160px;">
+				</td>
+				<td>XC60을abcd로 변경</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.toUpperCase()" value='.toUpperCase()' style="width:160px;">
+				</td>
+				<td>대문자로</td>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.concat(' ', name2)" value='.concat(" ", name2)' style="width:160px;">
+				</td>
+				<td>문자 연결</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" onclick="getElementById('stringTest1').innerHTML = name1.charAt(0)" value='.charAt(0)' style="width:160px;">
+				</td>
+				<td>0번째 문자</td>
+				<td>
+					<input type="button" onclick='getElementById("stringTest1").innerHTML = name1.split("")' value='.split("")' style="width:160px;">
+				</td>
+				<td>문자열을 배열로</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<!-- Number -->
+<hr/>
+<h3>Numbers</h3>
+<table border="0">
+	<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="200">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="numberTest1"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+		<table table border="1" align="center" style="height:200px; width:700px;" nowrap>
+			<tr>
+				<td align="center">실행 버튼</td>
+				<td align="center" WIDTH="100">설명</td>
+				<td align="center">실행 버튼</td>
+				<td align="center" WIDTH="140">설명</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" id="numText" style="width:100px;"><input type="button" onclick="javascript:numberTest()" value="숫자 적용">
+				</td>
+				<td>숫자 입력</td>
+				<td>
+					<select id="myNumber2"name="진수 선택">
+						<option value="2">2진수</option>
+						<option value="8">8진수</option>
+						<option value="16">16진수</option>
+					</select>
+					<input type="button" onclick="javascript:numberToString()" value="진수 적용" >
+				</td>
+				<td>입력숫자 진수변환</td>
+			</tr>
+			<tr>
+				<td>실행</td>
+				<td>결과</td>
+				<td>실행</td>
+				<td>결과</td>
+			</tr>
+			<tr>
+				<td><input type="button" onclick="getElementById('numberTest1').innerHTML = 123e5" value="123e5" style="width:175px;"></td>
+				<td>12300000</td>
+				<td><input type="button" onclick="getElementById('numberTest1').innerHTML = 123e-5" value="123e-5" style="width:140px;"></td>
+				<td>0.00123</td>
+			</tr>
+			<tr>
+				<td><input type="button" onclick="getElementById('numberTest1').innerHTML = 9999999999999999"value="9999999999999999" style="width:175px;"></td>
+				<td>10000000000000000</td>
+				<td><input type="button" onclick="getElementById('numberTest1').innerHTML = 0xff"value="0xff" style="width:140px;"></td>
+				<td>255</td>
+			</tr>
+			<tr>
+				<td><input type="button" onclick="getElementById('numberTest1').innerHTML = 2 / 0"value="2 / 0" style="width:175px;"></td>
+				<td>Infinity</td>
+				<td><input type="button" onclick="getElementById('numberTest1').innerHTML = -2 / 0"value="-2 / 0" style="width:140px;"></td>
+				<td>-Infinity</td>
+			</tr>
+			<tr>
+				<td><input type="button" onclick='getElementById("numberTest1").innerHTML = x' value='0.2 + 0.1' style="width:175px;"></td>
+				<td>0.30000000000000004</td>
+				<td><input type="button" onclick='javascript:timeout = setInterval(infinity, 1000);' value='무한대'style="width:140px;"></td>
+				<td>Infinity</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<!-- Number Methods -->
+<hr/>
+<h3>Number Methods</h3>
+numberX = 9.656
+<table border="0">
+<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="230">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="numberMethods"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+	<table table border="1" align="center" style="height:200px; width:700px;" nowrap>
+		<tr>
+			<td>실행</td>
+			<td>methods</td>
+			<td>설명</td>
+		</tr>
+		<tr>
+			<td>
+				numberX.toExponential(
+				<select id="numberMethods1" name="선택" style="width:40px">
+					<option value="2">2</option>
+					<option value="4">4</option>
+					<option value="6">6</option>)
+				</select>)
+				<input type="button" onclick="javascript:number1()" value="실행">
+			</td>
+			<td>toExponential()</td>
+			<td>반올림 지수 표기법 문자열로 반환(0~20)</td>
+		</tr>	
+		<tr>
+			<td>
+				numberX.toFixed(
+				<input type="text" id="numberMethods2" style="width:30px;">
+				)
+				<input type="button" onclick="javascript:getElementById('numberMethods').innerHTML = numberX.toFixed(numberMethods2.value)" value="실행">
+			</td>
+			<td>toFixed()</td>
+			<td>길이만큼 문자열로 반환(0~20)</td>
+		</tr>
+		<tr>
+			<td>
+				numberX.toPrecision(<input type="text" id="numberMethods3" style="width:30px;">
+				)
+				<input type="button" onclick="javascript:getElementById('numberMethods').innerHTML = numberX.toPrecision(numberMethods3.value)" value="실행">
+			</td>
+			<td>toPrecision()</td>
+			<td>지정된 길이로 문자열 반환(1~21)</td>
+		</tr>
+		<tr>
+			<td>
+				Number(
+				<select id="numberMethods4" name="선택" style="width:90px">
+					<option value="true">true</option>
+					<option value="false">false</option>
+					<option value="new Date()">new Date()</option>
+					<option value="10">"10"</option>
+					<option value="20">"10 20"</option>
+				</select>)
+				<input type="button" onclick="javascript:number4()" value="실행">
+			</td>
+			<td>Number()</td>
+			<td>변수를 숫자로 변환</td>
+		</tr>
+		<tr>
+			<td>
+				parselnt(
+				<select id="numberMethods5" name="선택" style="width:90px">
+					<option value="10">10</option>
+					<option value="10.33">10.33</option>
+					<option value="102030">10 20 30</option>
+					<option value="10years">"10 years"</option>
+					<option value="years10">"years 10"</option>
+				</select>)
+				<input type="button" onclick="javascript:number5()" value="실행">
+			</td>
+			<td>parselnt()</td>
+			<td>첫번째 정수를 반환</td>
+		</tr>
+		<tr>
+			<td>parseFloat(
+				<select id="numberMethods6" name="선택" style="width:90px">
+					<option value="10">10</option>
+					<option value="10.33">10.33</option>
+					<option value="102030">10 20 30</option>
+					<option value="10years">"10 years"</option>
+					<option value="years10">"years 10"</optiokn>
+				</select>)
+				<input type="button" onclick="javascript:number6()" value="실행">) 
+			</td>
+			<td>parseFloat() </td>
+			<td>첫번째 숫자를 반환</td>
+		</tr>
+		<tr>
+			<td>
+				<select id="numberMethods7" name="선택" style="width:80px">
+					<option value="numberX">numberX</option>
+					<option value="7.453">(7.453)</option>
+					<option value="8.123">(8+0.123)</option>
+				</select>
+			.valueOf()
+			<input type="button" onclick="javascript:number7()" value="실행">
+			</td>
+			<td>valueOf()</td>
+			<td>숫자로 반환</td>
+		</tr>
+	</table>
+</tr>
+</table>
+	Number() Test
+	<input type="text" id="numberMethods8" style="width:100px;">
+	<input type="button" onclick="javascript:number8()" value="실행">
+
+<hr/>
+<h3>Math Object</h3>
+
+랜덤, 최소, 최대, round반올림, ceil올림, floor내림, 0~10랜덤
+<table border="0">
+<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="230">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="mathObject"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+	<table table border="1" align="center" style="height:200px; width:700px;" nowrap>
+		<tr>
+			<td>실행</td>
+			<td>methods</td>
+			<td>설명</td>
+		</tr>
+		<tr>
+			<td>
+				Math.random()
+				<input type="button" onclick="javascript:getElementById('mathObject').innerHTML = Math.random()" value="실행">
+			</td>
+			<td>.random()</td>
+			<td>임의의 숫자를 생성</td>
+		</tr>	
+		<tr>
+			<td>
+				Math.min(0, 99, 100, -1 , -50)
+				<input type="button" onclick="javascript:getElementById('mathObject').innerHTML = Math.min(0, 99, 100, -1 , -50)" value="실행">
+			</td>
+			<td>.min()</td>
+			<td>제일 낮은 수를 반환 </td>
+		</tr>
+		<tr>
+			<td>
+				Math.max(0, 99, 100, -1 , -50)
+				<input type="button" onclick="javascript:getElementById('mathObject').innerHTML = Math.max(0, 99, 100, -1 , -50)" value="실행">
+			</td>
+			<td>.max()</td>
+			<td>제일 높은 수를 반환</td>
+		</tr>
+		<tr>
+			<td>
+				Math.round(<input type="text" id="inputMathRound" style="width:50px;">)
+				<input type="button" onclick="javascript:getElementById('mathObject').innerHTML = Math.round(inputMathRound.value)" value="실행">
+			</td>
+			<td>.round()</td>
+			<td>소수점을 반올림</td>
+		</tr>
+		<tr>
+			<td>
+				Math.ceil(<input type="text" id="inputMathCeil" style="width:50px;">)
+				<input type="button" onclick="javascript:getElementById('mathObject').innerHTML = Math.round(inputMathCeil.value)" value="실행">
+			</td>
+			<td>.ceil()</td>
+			<td>소수점을 올림</td>
+		</tr>
+		<tr>
+			<td>
+				Math.floor(<input type="text" id="inputMathFloor" style="width:50px;">)
+				<input type="button" onclick="javascript:getElementById('mathObject').innerHTML = Math.floor(inputMathFloor.value)" value="실행">
+			</td>
+			<td>.floor()</td>
+			<td>소수점을 버림</td>
+		</tr>
+		<tr>
+			<td>
+				Math.floor(Math.random() * 11)
+				<input type="button" onclick="javascript:getElementById('mathObject').innerHTML = Math.floor(Math.random() * 11)" value="실행">
+			</td>
+			<td>floor & random</td>
+			<td>0~10랜덤정수 반환</td>
+		</tr>
+	</table>
+</tr>
+</table>
+<hr/>
+<h3>Dates</h3>
+변수<br/>
+dateX = new Date()
+<table border="0">
+<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="200">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="dates"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+	<table table border="1" align="center" style="height:200px; width:700px;" nowrap>
+		<tr>
+			<td>실행</td>
+			<td>methods</td>
+			<td>설명</td>
+		</tr>
+		<tr>
+			<td>
+				new Date()
+				<input type="button" onclick="javascript:getElementById('dates').innerHTML = new Date()" value="실행">
+			</td>
+			<td>new Date()</td>
+			<td>날짜를 출력</td>
+		</tr>	
+		<tr>
+			<td>
+				dateX.toDateString()
+				<input type="button" onclick="javascript:getElementById('dates').innerHTML = dateX.toDateString()" value="실행">
+			</td>
+			<td>.toDateString()</td>
+			<td>년 월 일 출력</td>
+		</tr>
+		<tr>
+			<td>
+				dateX.toUTCString
+				<input type="button" onclick="javascript:getElementById('dates').innerHTML = dateX.toUTCString()" value="실행">
+			</td>
+			<td>.toUTCString()</td>
+			<td>시 분 초 까지</td>
+		</tr>
+		<tr>
+			<td>
+				dateX.toString
+				<input type="button" onclick="javascript:getElementById('dates').innerHTML = dateX.toString()" value="실행">
+			</td>
+			<td>.toString()</td>
+			<td>문자열 출력</td>
+		</tr>
+		<tr>
+			<td>
+				Number(dateX)
+				<input type="button" onclick="javascript:getElementById('dates').innerHTML = Number(dateX)" value="실행">
+				
+			</td>
+			<td>Number(dateX)</td>
+			<td>숫자형 날짜</td>
+		</tr>
+		
+	</table>
+</tr>
+</table>
+	자바스크립트에서 달의 시작은 0부터 1월<br/>
+	new Date(year, month, day, hour, minute, second, millisecond)<br/>
+	new Date(
+		<input type="text" id="inputDate1" style="width:40px;">,
+		<input type="text" id="inputDate2" style="width:40px;">,
+		<input type="text" id="inputDate3" style="width:40px;">,
+		<input type="text" id="inputDate4" style="width:40px;">,
+		<input type="text" id="inputDate5" style="width:40px;">,
+		<input type="text" id="inputDate6" style="width:40px;">,
+		<input type="text" id="inputDate7" style="width:40px;">)
+		<input type="button" onclick="javascript:getElementById('dates').innerHTML = new Date(inputDate1.value, inputDate2.value, inputDate3.value, inputDate4.value, inputDate5.value, inputDate6.value, inputDate7.value)" value="실행">
+
+<hr/>
+<h3>Date Formats</h3>
+변수<br/>
+<table border="0">
+<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="200">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="dateFormats"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+	<table table border="1" align="center" style="height:200px; width:770px;" nowrap>
+		<tr>
+			<td>실행</td>
+			<td>methods</td>
+			<td>설명</td>
+		</tr>
+		<tr>
+			<td>
+				new Date("2015-05-25")
+				<input type="button" onclick="javascript:getElementById('dateFormats').innerHTML = new Date('2015-05-25')" value="실행">
+			</td>
+			<td>new Date(YYYY-MM-DD)</td>
+			<td>기본 날짜 형식</td>
+		</tr>	
+		<tr>
+			<td>
+				new Date("2015/05/25")
+				<input type="button" onclick="javascript:getElementById('dateFormats').innerHTML = new Date('2015/03/20')" value="실행">
+				
+			</td>
+			<td>new Date(YYYY/MM/DD)</td>
+			<td>기본 날짜 형식</td>
+		</tr>
+		<tr>
+			<td>
+				new Date("2015-05-25T12:00:00")
+				<input type="button" onclick="javascript:getElementById('dateFormats').innerHTML = new Date('2015-05-25T12:00:00')" value="실행">
+			</td>
+			<td>new Date(YYY-MM-DDTHH:MM:SS)</td>
+			<td>시 분 초 추가</td>
+		</tr>
+		<tr>
+			<td colspan=2>
+				new Date("Wed Mar 25 2015 09:56:24 GMT+0100 (W. Europe Standard Time)");
+				<input type="button" onclick="javascript:getElementById('dateFormats').innerHTML = new Date('Wed Mar 25 2015 09:56:24 GMT+0100 (W. Europe Standard Time)')" value="실행">
+			</td>
+			<td>문자열 날짜</td>
+		</tr>
+	</table>
+</tr>
+</table>
+
+<hr/>
+<h3>Arrays</h3>
+변수<br/>
+var arrayX = [40, 20, 10, 99, 5] <br/>
+var arrayObj = {number1:"1", number2:"2"}
+
+<table border="0">
+<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="230">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="arrayDisplay"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+	<table table border="1" align="center" style="height:200px; width:750px;" nowrap>
+		<tr>
+			<td>실행</td>
+			<td>방법</td>
+			<td>설명</td>
+		</tr>
+		<tr>
+			<td>
+				arrayX = [40, 20, 10, 99, 5]
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayX=[40, 20, 10, 99, 5]" value="실행">
+			</td>
+			<td>arrayX = [값]</td>
+			<td>배열생성</td>
+		</tr>
+		<tr>
+			<td>
+				arrayX.length
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayX.length" value="실행">
+			</td>
+			<td>.length</td>
+			<td>배열길이</td>
+		</tr>	
+		<tr>
+			<td>
+				arrayX[1]
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayX[1]" value="실행">
+			</td>
+			<td>arrayX[위치(0부터)]</td>
+			<td>값 가져오기</td>
+		</tr>
+		<tr>
+			<td >
+				arrayObj = {number1:"1번", number2: "2번"}
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayObj = {number1:'1번', number2:'번'}" value="실행">
+			</td>
+			<td >arrayObj = {name:"값", name:"값"}</td>
+			<td>오브젝트형태</td>
+		</tr>
+		<tr>
+			<td>
+				arrayObj[<input type="text" id="arrayName" style="width:70px;">]
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayObj[arrayName.value]" value="실행">
+			</td>
+			<td>arrayX["name"]</td>
+			<td>배열 출력</td>
+		</tr>
+		
+		<tr>
+			<td>
+				arrayX.push(<input type="text" id="pushArray" style="width:50px;">)
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayX.push(pushArray.value)" value="실행">
+			</td>
+			<td>.push</td>
+			<td>배열추가</td>
+		</tr>
+		<tr>
+			<td>
+				arrayX[<input type="text" id="numberArray" style="width:50px;">] = 
+				<input type="text" id="valueArray" style="width:50px;">
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayX[(numberArray.value)]=Number(valueArray.value)" value="실행">
+				<input type="button" onclick="javascript:getElementById('arrayDisplay').innerHTML = arrayX" value="arrayX결과보기"
+			</td>
+			<td>arrayX[위치] = "값"</td>
+			<td>임의의 위치</td>
+		</tr>
+
+	</table>
+</tr>
+</table>
+
+<hr/>
+<h3>Arrays Methods</h3>
+변수<br/>
+var points = [10, 30, 50, 4, 8];
+<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = points = [10, 30, 50, 4, 8]" value="변수생성">
+<br/>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits = ['Banana', 'Orange', 'Apple', 'Mango']" value="변수생성">
+
+<table border="0">
+<tr>
+	<td>
+		<table border="1" WIDTH="300" HEIGHT="290" style="table-layout:fixed">
+			<tr>
+				<td HEIGHT="40">실행 화면</td>
+			</tr>
+			<tr>
+				<td id="arrayMethodsDisplay"  style="word-break:break-all"></td>
+			</tr>
+		</table>
+	</td>
+	<td>
+	<table table border="1" align="center" style="height:200px; width:750px;" nowrap>
+		<tr>
+			<td>실행</td>
+			<td>방법</td>
+			<td>설명</td>
+		</tr>
+		<tr>
+			<td>
+				fruits.toString();
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.toString();" value="실행">
+			</td>
+			<td>.toString()</td>
+			<td>배열 출력</td>
+		</tr>
+		<tr>
+			<td>
+				fruits.join(<input type="text" id="inputArrayMethods1" style="width:50px;">)
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.join(inputArrayMethods1.value)" value="실행">
+			</td>
+			<td>.join()</td>
+			<td>문자사이에 내용 출력</td>
+		</tr>	
+		<tr>
+			<td>
+				fruits.pop()
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.pop()" value="실행">
+			</td>
+			<td>.pop()</td>
+			<td>마지막 배열요소</td>
+		</tr>
+		<tr>
+			<td>
+				fruits.shift()
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.shift()" value="실행">
+			</td>
+			<td>.shift()</td>
+			<td>처음 요소부터 제거</td>
+		</tr>
+		<tr>
+			<td>
+				fruits.unshift(<input type="text" id="inputArrayMethods2" style="width:50px;">)
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.unshift(inputArrayMethods2.value)" value="실행">
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.toString();" value="결과확인">
+			</td>
+			<td>.unshift()</td>
+			<td>요소를 추가</td>
+		</tr>
+		
+		<tr>
+			<td>
+				points.splice(
+				<input type="text" id="inputArrayMethods3" style="width:30px;">,
+				<input type="text" id="inputArrayMethods4" style="width:30px;">
+				)
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = points.splice(Number(inputArrayMethods3.value), Number(inputArrayMethods4.value))" value="실행">
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = points.toString();" value="결과확인">
+			</td>
+			<td>.slice(시작,갯수)</td>
+			<td>선택항목 제거</td>
+		</tr>
+		<tr>
+			<td>
+				fruits.sort()
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.sort()" value="실행">
+			</td>
+			<td>.sort()</td>
+			<td>abc순으로</td>
+		</tr>
+		<tr>
+			<td>
+				fruits.reverse()
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = points.reverse()" value="실행">
+			<td>.reverse()</td>
+			<td>abc역순</td>
+		</tr>
+		<tr>
+			<td>
+				fruits.concat(points)
+				<input type="button" onclick="javascript:getElementById('arrayMethodsDisplay').innerHTML = fruits.concat(points)" value="실행">
+			</td>
+			<td>.concat()</td>
+			<td>배열 인수 실행</td>
+		</tr>
+	</table>
+</tr>
+</table>
+
+<hr/>
+<h3>Booleans</h3>
+변수<br/>
+
+</body>
+</html>
+
+
+
